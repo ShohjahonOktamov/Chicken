@@ -24,7 +24,7 @@ header>nav {
   position: absolute;
   width: 1360px;
   height: 51px;
-  left: 105px;
+  left: 210px;
   top: 27px;
   display: flex;
   justify-content: space-between;
@@ -54,6 +54,7 @@ header>nav>span.nav-items {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  left: 150px;
 }
 
 .nav-item {
@@ -70,6 +71,8 @@ header>nav>span.nav-items {
 }
 
 header>nav>span.btns {
+  position: relative;
+  left: 440px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -134,7 +137,7 @@ img.gril {
   position: absolute;
   width: 631px;
   height: 373px;
-  left: 100px;
+  left: 206px;
   top: 100px;
 }
 
@@ -187,7 +190,7 @@ div.btns {
   position: absolute;
   width: 196px;
   height: 49px;
-  left: 100px;
+  left: 205px;
   background: #9E090F;
   border-radius: 77px;
   font-family: 'Outfit';
@@ -204,7 +207,7 @@ div.btns {
   position: absolute;
   width: 194px;
   height: 49px;
-  left: 309px;
+  left: 415px;
   background: #F3F3F3;
   border-radius: 77px;
   font-family: 'Outfit';
@@ -220,7 +223,7 @@ div.btns {
   position: absolute;
   width: 471px;
   height: 322.12px;
-  left: 87px;
+  left: 200px;
   top: 700px;
 }
 
@@ -457,7 +460,7 @@ div.discount {
 }
 
 .big {
-  left: 13px;
+  left: 17px;
   position: absolute;
   font-size: 24px;
   font-weight: 600;
@@ -491,4 +494,8 @@ div.discount {
   height: 28.15px;
   background: #7DC94F;
   box-shadow: 2.68085px 5.3617px 8.57872px #CCFEAE;
+}
+
+.nav-item:hover {
+  color: #9E090F;
 }
